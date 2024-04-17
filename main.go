@@ -8,7 +8,9 @@ import (
 )
 
 func main() {
-	fmt.Println("Init")
+	fmt.Println("=======================================")
+	fmt.Println("==          Buscador de IP           ==")
+	fmt.Println("=======================================")
 
 	app := app.Cli()
 	if err := app.Run(os.Args); err != nil {
